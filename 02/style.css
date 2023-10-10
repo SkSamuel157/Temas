@@ -34,7 +34,8 @@ header {
 .container {
     display: flex;
     align-items: center;
-    background-color: #f0f0f0; /* Cor de fundo desejada */
+    background-color: #f0f0f0;
+    /* Cor de fundo desejada */
     padding: 70px;
     height: 700px;
     justify-content: space-between;
@@ -50,7 +51,8 @@ header {
 }
 
 .texto {
-    padding-left: 20px;  /* Espaçamento entre a imagem e o texto */
+    padding-left: 20px;
+    /* Espaçamento entre a imagem e o texto */
     display: flex;
     flex-wrap: wrap;
     width: 500px;
@@ -61,4 +63,31 @@ h1 {
     margin: 0;
     font-size: 40px;
 }
-/* Pt. 01 */
+
+/* Pt. 01 FIM */
+/* Pt. 02 */
+.container2{
+    height: 700px;
+    text-align: center;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.container2 h2{
+    padding: 5px;
+}
+
+.item img{
+    text-align: center;
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.servico{
+    margin: 70px 0 50px 50px;
+}
+/* Pt. 02 FIM*/
