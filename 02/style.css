@@ -66,19 +66,20 @@ h1 {
 
 /* Pt. 01 FIM */
 /* Pt. 02 */
-.container2{
+.container2 {
     height: 700px;
+    padding: 10px 70px 70px 70px;
     text-align: center;
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     align-items: center;
 }
 
-.container2 h2{
+.container2 h2 {
     padding: 5px;
 }
 
-.item img{
+.item img {
     text-align: center;
     margin: 20px;
     width: 300px;
@@ -87,7 +88,35 @@ h1 {
     justify-content: center;
 }
 
-.servico{
-    margin: 70px 0 50px 50px;
+.servico {
+    margin: 40px 0 50px 50px;
 }
+
 /* Pt. 02 FIM*/
+/*Nosso Blog */
+.container3 {
+    background-color: #3d3b3b;
+    /* Cor de fundo desejada */
+    padding: 20px;
+    height: 700px;
+    justify-content: space-between;
+}
+
+.imagem2 {
+    padding: 50px 100px 100px 100px;
+    width: 1300px;
+    height: 500px;
+}
+
+.texto {
+    padding-left: 20px; /* Espaçamento entre a imagem e o texto */
+    width: 500px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 40px;
+}
+/*Nosso Blog FIM */
+/*CONTATO */
