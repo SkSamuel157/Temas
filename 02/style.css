@@ -29,3 +29,36 @@ header {
 }
 
 /* FIM HEADER */
+
+/* Pt. 01 */
+.container {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0; /* Cor de fundo desejada */
+    padding: 70px;
+    height: 700px;
+    justify-content: space-between;
+}
+
+.imagem {
+    width: 333.21px;
+    height: 450.88px;
+    border-radius: 55px;
+    margin-left: 100px;
+    box-shadow: -35px -35px #717171;
+
+}
+
+.texto {
+    padding-left: 20px;  /* Espaçamento entre a imagem e o texto */
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 40px;
+}
+/* Pt. 01 */
