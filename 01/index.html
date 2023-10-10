@@ -10,11 +10,11 @@
             background-color: white;
             color: black;
         }
-        .tema-escuro{
+
+        .tema-escuro {
             background-color: #3a3737;
             color: white;
         }
-
     </style>
 </head>
 
@@ -26,6 +26,18 @@
     <main>
         <p>Esse é o meu site</p>
     </main>
+
+    <script>
+        // localiza o Botão no HTML //
+        const trocarTema = document.getElementById
+            ('trocar-tema');
+        // Localiza o Body no HTML //
+        const body = document.body;
+
+        trocarTema.addEventListener('click', () =>{
+            body.classList.toggle(Te)
+        })
+    </script>
 </body>
 
 </html>
