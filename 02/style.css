@@ -9,23 +9,39 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #717171;
-    color: #fff;
+    background-color: #910DA7;
     height: 100px;
     padding: 10px 20px;
+    padding-right: 50px;
 }
 
-.header-left h1 {
-    margin: 0;
-}
-
-.header-right a {
-    text-decoration: none;
+#header-left {
+    margin-left: 55px;
     color: #fff;
+
 }
 
-.header-right a:hover {
-    text-decoration: underline;
+#header-left span {
+    color: #70FF00;
+}
+
+.header-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#header-right a {
+    color: #fff;
+    margin: 0 60px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.custom-size {
+    font-size: 30px;
+    color: #000000;
 }
 
 /* FIM HEADER */
@@ -34,8 +50,7 @@ header {
 .container {
     display: flex;
     align-items: center;
-    background-color: #f0f0f0;
-    /* Cor de fundo desejada */
+    background-color: #910DA7;
     padding: 70px;
     height: 700px;
     justify-content: space-between;
@@ -46,20 +61,20 @@ header {
     height: 450.88px;
     border-radius: 55px;
     margin-left: 100px;
-    box-shadow: -35px -35px #717171;
+    box-shadow: -35px -35px #52BA00;
 
 }
 
 .texto {
-    padding-left: 20px;
-    /* Espaçamento entre a imagem e o texto */
+    padding-right: 175px;
     display: flex;
     flex-wrap: wrap;
     width: 500px;
     text-align: center;
 }
 
-h1 {
+#T {
+    color: #fff;
     margin: 0;
     font-size: 40px;
 }
@@ -90,69 +105,120 @@ h1 {
 
 .servico {
     margin: 40px 0 50px 50px;
+    color: #fa835b;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.servico span {
+    margin: 0 0 0 5px;
+    color: #EA4710;
+    font-style: italic;
+    font-weight: 700;
 }
 
 /* Pt. 02 FIM*/
 /*Nosso Blog */
 .container3 {
-    background-color: #3d3b3b;
     /* Cor de fundo desejada */
+    background-color: #910DA7;
     padding: 20px;
     height: 700px;
     justify-content: space-between;
 }
 
 .imagem2 {
-    padding: 50px 100px 100px 100px;
+    padding: 0 100px 100px 100px;
     width: 1300px;
     height: 500px;
 }
 
 .texto {
-    padding-left: 20px; /* Espaçamento entre a imagem e o texto */
+    /* Espaçamento entre a imagem e o texto */
+    padding-left: 20px;
     width: 500px;
     text-align: center;
 }
 
-h1 {
-    margin: 0;
-    font-size: 40px;
+.blog {
+    color: #70FF00;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 400;
 }
+
+.blog span {
+    color: #70FF00;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 700;
+}
+
 /*Nosso Blog FIM */
 /*CONTATO */
 
-.contato {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+.laranja {
+    margin: 0 220px;
+    margin-top: 70px;
+    color: #EA4710;
+    font-weight: 600;
+    font-size: 40px;
 }
 
 .form-contato {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    width: 100%;
-    max-width: 800px; /* Ajuste o valor conforme necessário */
+    margin-top: 40px;
 }
 
 form {
-    width: 50%;
-    padding: 20px;
-    box-sizing: border-box;
+    display: grid;
 }
 
-form label,
-form input,
-form textarea,
-form button {
-    display: block;
-    margin-bottom: 10px;
-    width: 100%;
-    box-sizing: border-box;
+input{
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 3px;
+    height: 30px;
 }
 
-img {
-    width: 50%;
-    max-width: 400px; /* Ajuste o valor conforme necessário */
+textarea{
+    background-color: #D9D9D9;
+    border: none;
+}
+
+.form-contato img{
+    height: 400px;
+    width: auto;
+}
+
+
+
+button{
+    background-color: #920DA7;
+    color: white;
+    border-radius: 60px;
+    width: 120px;
+    height: 30px;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 17px;
+}
+
+.final{
+    background-color: #920DA7;
+    height: 230px;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.final h1{
+    margin-top: 45px;
+}
+
+.tema-escuro .imagem #header-left #header-right header {
+
 }

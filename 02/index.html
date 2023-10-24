@@ -5,35 +5,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/16daf1f8bf.js" crossorigin="anonymous"></script>
     <title>Lente Viva</title>
 </head>
 
 <body>
-
+    <!-- HEADER -->
     <header>
-        <div class="header-left">
-            <h>LenteViva</h1>
+        <div id="header-left">
+            <h1>LENTE<span>VIVA</span></h1>
         </div>
-        <div class="header-right">
+        <div id="header-right">
             <nav>
-                <a href="#">Serviços</a>
-                <a href="#">Blog</a>
-                <a href="#">Contato</a>
-                <button id="trocar-tema">Alterar</button>
+                <a href="#">SERVIÇOS</a>
+                <a href="#">BLOG</a>
+                <a href="#">CONTATO</a>
+                <button id="trocar-tema-btn">Trocar Tema</button>
+
             </nav>
         </div>
     </header>
-
+    <!-- FIM HEADER -->
+    <!-- 01 INICIO -->
     <div class="container">
         <div>
             <img src="HOMEM.png" class="imagem">
         </div>
         <div class="texto">
-            <h1>TRANSFORMANDO MOMENTOS EM MEMÓRIAS ETERNAS.</h1>
+            <h1 id="T">TRANSFORMANDO MOMENTOS EM MEMÓRIAS ETERNAS.</h1>
         </div>
     </div>
+    <!-- 01 FIM -->
+    <h1 class="servico">NOSSOS<span class="servico">SERVIÇOS</span></h1>
 
-    <h1 class="servico">NOSSOS SERVIÇOS</h1>
     <div class="container2">
         <div class="item">
             <img src="01.png">
@@ -54,7 +58,7 @@
 
     <div class="container3">
         <div class="texto">
-            <h1>NOSSO BLOG</h1>
+            <h1 class="blog">NOSSO <span class="blog">BLOG</span></h1>
         </div>
         <div>
             <img src="camera.png" class="imagem2">
@@ -62,28 +66,36 @@
     </div>
 
     <div class="contato">
-        <h1>CONTATE-NOS</h1>
+        <h1 class="laranja">CONTATE-<span class="negrito">NOS</span></h1>
         <div class="form-contato">
             <form>
-                <label for="nome">NOME:</label>
-                <input type="text" id="nome">
-
-                <label for="email">EMAIL:</label>
-                <input type="text" id="email">
-
-                <label for="telefone">TELEFONE:</label>
-                <input type="text" id="telefone">
-
-                <label for="mensagem">MENSAGEM:</label>
-                <textarea id="mensagem" cols="30" rows="10"></textarea>
-                
+                <label>NOME:</label>
+                <input type="text">
+                <label>EMAIL:</label>
+                <input type="text">
+                <label>TELEFONE</label>
+                <input type="text">
+                <label>MENSAGEM:</label>
+                <textarea cols="30" rows="10"></textarea>
                 <button>ENVIAR</button>
             </form>
-            <img src="BOLSA.png" alt="Imagem">
+            <img src="BOLSA.png">
         </div>
     </div>
-    
 
+
+    <footer class="final">
+        <nav class="menu">
+            <a href="">SERVIÇOS</a>
+            <a href="">BLOG</a>
+            <a href="">CONTATO</a>
+        </nav>
+        <div class="logo">
+            <h1 class="nome">LENTE<span style="color: #70FF00;">VIVA</span></h1>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
 </body>
 
 </html>
